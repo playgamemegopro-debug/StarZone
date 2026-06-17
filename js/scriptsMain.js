@@ -1,5 +1,5 @@
-import {imgActiviti, eventFavorite, findActiveUserFavorite, addFromCardBtn} from "/modalWindows.js";
-import { itemList, usersList, switchAccount } from "/object.js";
+import {imgActiviti, eventFavorite, findActiveUserFavorite, addFromCardBtn} from "../modalWindows.js";
+import { itemList, usersList, switchAccount } from "../object.js";
 
 const page = document.getElementById("product-view");
 let sortItemList = itemList;
