@@ -1,6 +1,6 @@
-import { itemList } from "/object.js";
-import { usersList, switchAccount } from "/object.js";
-import { pageOn } from "/scriptsMain.js";
+import { itemList } from "StarZone/js/object.js";
+import { usersList, switchAccount } from "StarZone/js/object.js";
+import { pageOn } from "StarZone/js/scriptsMain.js";
 
 export let findActiveUserFavorite = function(option){
     for(let counter = 0; counter < usersList.length; counter++){
