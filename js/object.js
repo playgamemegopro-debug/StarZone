@@ -1,8 +1,8 @@
 export const itemList = [
     {   
-        mainImg: "../img/Republic Jaggernaut main.jpg",
-        mainImg2: "../img/Republic Jaggernaut main-2.jpg",
-        img3: "../img/Republic Jaggernaut.jpg",
+        mainImg: "./img/Republic Jaggernaut main.jpg",
+        mainImg2: "./img/Republic Jaggernaut main-2.jpg",
+        img3: "./img/Republic Jaggernaut.jpg",
         price: 12999,
         oldprice: 15999,
         rate: "4.5",
@@ -14,9 +14,9 @@ export const itemList = [
         ageOfGo: "2025"
     },
     {   
-        mainImg: "../img/Venator-Class Attack Cruiser main.jpg",
-        mainImg2: "../img/Venator-Class Attack Cruiser main2.jpg",
-        img3: "../img/Venator-Class Attack Cruiser.jpg",
+        mainImg: "./img/Venator-Class Attack Cruiser main.jpg",
+        mainImg2: "./img/Venator-Class Attack Cruiser main2.jpg",
+        img3: "./img/Venator-Class Attack Cruiser.jpg",
         price: 3999,
         oldprice: 5999,
         rate: "5.0",
