@@ -224,7 +224,7 @@ let openModulWindow = function(option, nameCard){
                 <img id="close-modal-window" src="./img/close.png" alt="">
                 <h1>Аккаунт</h1>
                 <div class="account-modal">
-                    <div class="account-modal-img"><img  src="img/account.png" alt=""></div>
+                    <div class="account-modal-img"><img  src="./img/account.png" alt=""></div>
                     <h2>${activeUser}</h2>
                     <h3 id="exit-account">Выйти из аккаунта</h3>
                 <div>
@@ -275,7 +275,7 @@ let openModulWindow = function(option, nameCard){
         if (nameCard == "favorite-cart")
         {
         modulMin.innerHTML = `
-            <img id="close-modal-window" src="../img/close.png" alt="">
+            <img id="close-modal-window" src="./img/close.png" alt="">
                 <h1>Избранные товары</h1>
                 <div id="favorite-items-grid"></div>
         `;
