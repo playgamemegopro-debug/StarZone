@@ -14,9 +14,9 @@
 .rate-good{
     color: rgb(13, 159, 30);
 }
-body{
-    margin: 0;
-    overflow-x: hidden;
+html, body {
+     margin: 0;
+     overflow-x: hidden;
 }
 .rate-bad{
     
