@@ -15,7 +15,7 @@ export let pageOn = function() {
     page.innerHTML = "";
     for(let b = sortItemList.length - 1; b > -1; b--){
         let rateColor = "rate-color";
-        let favoriteBtn = "../img/free-icon-star-126482.png"
+        let favoriteBtn = "./img/free-icon-star-126482.png"
         if (sortItemList[b].rate > 4.5){
             rateColor = "rate-good"
         }
@@ -24,7 +24,7 @@ export let pageOn = function() {
         }
         for(let counter = 0; counter < favoriteItemsList.length; counter++){
             if (sortItemList[b].name == favoriteItemsList[counter]){
-                favoriteBtn = "../img/active-star.png";
+                favoriteBtn = "./img/active-star.png";
             }
         }
         page.insertAdjacentHTML("afterbegin", `<li>
@@ -131,7 +131,7 @@ let filteredHigestOrLowestPage = function(optionSelected, needAtribute){
         page.innerHTML = "";
         for(let b = sortItemList.length - 1; b > -1; b--){
         let rateColor = "rate-color";
-        let favoriteBtn = "../img/free-icon-star-126482.png"
+        let favoriteBtn = "./img/free-icon-star-126482.png"
         if (itemList[b].rate > 4.5){
             rateColor = "rate-good"
         }
@@ -140,7 +140,7 @@ let filteredHigestOrLowestPage = function(optionSelected, needAtribute){
         }
         for(let counter = 0; counter < favoriteItemsList.length; counter++){
             if (sortItemList[b].name == favoriteItemsList[counter]){
-                favoriteBtn = "../img/active-star.png";
+                favoriteBtn = "./img/active-star.png";
             }
         }
         page.insertAdjacentHTML("afterbegin", `<li>
