@@ -28,9 +28,9 @@ export const itemList = [
         ageOfGo: "2026"
     },
     {   
-        mainImg: "../img/Siege of Mandalore Battle Pack main.jpg",
-        mainImg2: "../img/Siege of Mandalore Battle Pack main2.jpg",
-        img3: "../img/Siege of Mandalore Battle Pack.jpg",
+        mainImg: "./img/Siege of Mandalore Battle Pack main.jpg",
+        mainImg2: "./img/Siege of Mandalore Battle Pack main2.jpg",
+        img3: "./img/Siege of Mandalore Battle Pack.jpg",
         price: 3499,
         oldprice: 4999,
         rate: "4.7",
@@ -42,9 +42,9 @@ export const itemList = [
         ageOfGo: "2026"
     },
     {   
-        mainImg: "../img/Battle Droid with STAP main.jpg",
-        mainImg2: "../img/Battle Droid with STAP main2.jpg",
-        img3: "../img/Battle Droid with STAP.jpg",
+        mainImg: "./img/Battle Droid with STAP main.jpg",
+        mainImg2: "./img/Battle Droid with STAP main2.jpg",
+        img3: "./img/Battle Droid with STAP.jpg",
         price: 8999,
         oldprice: 10999,
         rate: "4.0",
@@ -56,9 +56,9 @@ export const itemList = [
         ageOfGo: "2025"
     },
     {   
-        mainImg: "../img/327th Star Corps Clone Troopers Battle Pack main.jpg",
-        mainImg2: "../img/327th Star Corps Clone Troopers Battle Pack main2.jpg",
-        img3: "../img/327th Star Corps Clone Troopers Battle Pack.jpg",
+        mainImg: "./img/327th Star Corps Clone Troopers Battle Pack main.jpg",
+        mainImg2: "./img/327th Star Corps Clone Troopers Battle Pack main2.jpg",
+        img3: "./img/327th Star Corps Clone Troopers Battle Pack.jpg",
         price: 4499,
         oldprice: 6499,
         rate: "5.0",
@@ -70,9 +70,9 @@ export const itemList = [
         ageOfGo: "2025"
     },
     {   
-        mainImg: "../img/Battle of Felucia Separatist MTT main.jpg",
-        mainImg2: "../img/Battle of Felucia Separatist MTT main2.jpg",
-        img3: "../img/Battle of Felucia Separatist MTT.jpg",
+        mainImg: "./img/Battle of Felucia Separatist MTT main.jpg",
+        mainImg2: "./img/Battle of Felucia Separatist MTT main2.jpg",
+        img3: "./img/Battle of Felucia Separatist MTT.jpg",
         price: 13999,
         oldprice: 16999,
         rate: "4.9",
@@ -84,9 +84,9 @@ export const itemList = [
         ageOfGo: "2025"
     },
     {   
-        mainImg: "../img/Trade Federation Troop Carrier main.jpg",
-        mainImg2: "/img/Trade Federation Troop Carrier main2.jpg",
-        img3: "../img/Trade Federation Troop Carrier.jpg",
+        mainImg: "./img/Trade Federation Troop Carrier main.jpg",
+        mainImg2: "./img/Trade Federation Troop Carrier main2.jpg",
+        img3: "./img/Trade Federation Troop Carrier.jpg",
         price: 5999,
         oldprice: "7999",
         rate: "3.3",
@@ -98,9 +98,9 @@ export const itemList = [
         ageOfGo: "2024"
     },
     {   
-        mainImg: "../img/Clone Trooper & Battle Droid Battle Pack main.jpg",
-        mainImg2: "../img/Clone Trooper & Battle Droid Battle Pack main2.jpg",
-        img3: "../img/Clone Trooper & Battle Droid Battle Pack.jpg",
+        mainImg: "./img/Clone Trooper & Battle Droid Battle Pack main.jpg",
+        mainImg2: "./img/Clone Trooper & Battle Droid Battle Pack main2.jpg",
+        img3: "./img/Clone Trooper & Battle Droid Battle Pack.jpg",
         price: 2999,
         oldprice: "3999",
         rate: "5.0",
@@ -112,9 +112,9 @@ export const itemList = [
         ageOfGo: "2024"
     },
     {   
-        mainImg: "../img/Coruscant Guard Gunship main.jpg",
-        mainImg2: "../img/Coruscant Guard Gunship main2.jpg",
-        img3: "../img/Coruscant Guard Gunship.jpg",
+        mainImg: "./img/Coruscant Guard Gunship main.jpg",
+        mainImg2: "./img/Coruscant Guard Gunship main2.jpg",
+        img3: "./img/Coruscant Guard Gunship.jpg",
         price: 15999,
         oldprice: "20999",
         rate: "4.8",
@@ -126,9 +126,9 @@ export const itemList = [
         ageOfGo: "2023"
     },
     {   
-        mainImg: "../img/AT-TE Walker main.jpg",
-        mainImg2: "../img/AT-TE Walker main2.jpg",
-        img3: "../img/AT-TE Walker.jpg",
+        mainImg: "./img/AT-TE Walker main.jpg",
+        mainImg2: "./img/AT-TE Walker main2.jpg",
+        img3: "./img/AT-TE Walker.jpg",
         price: 11999,
         oldprice: "14999",
         rate: "5.0",
