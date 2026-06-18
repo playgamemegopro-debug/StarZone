@@ -1,6 +1,6 @@
-import { itemList } from "js/object.js";
-import { usersList, switchAccount } from "js/object.js";
-import { pageOn } from "js/scriptsMain.js";
+import { itemList } from "../js/object.js";
+import { usersList, switchAccount } from "../js/object.js";
+import { pageOn } from "../js/scriptsMain.js";
 
 export let findActiveUserFavorite = function(option){
     for(let counter = 0; counter < usersList.length; counter++){
