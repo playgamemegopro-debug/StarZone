@@ -29,13 +29,13 @@ export let eventFavorite = function(){
             let noInFav = true;
             for(let counter2 = 0; counter2 < favoriteItemsList.length; counter2++){
                 if(document.querySelectorAll(".favorite-button")[counter].parentElement.children[3].textContent == favoriteItemsList[counter2]){
-                    document.querySelectorAll(".favorite-button")[counter].children[0].src = "../img/free-icon-star-126482.png";
+                    document.querySelectorAll(".favorite-button")[counter].children[0].src = "./img/free-icon-star-126482.png";
                     noInFav = false;
                     favoriteItemsList.splice(counter2, 1);
                 }
             }
             if (noInFav == true){
-                document.querySelectorAll(".favorite-button")[counter].children[0].src = "../img/active-star.png";
+                document.querySelectorAll(".favorite-button")[counter].children[0].src = "./img/active-star.png";
                 favoriteItemsList.push(document.querySelectorAll(".favorite-button")[counter].parentElement.children[3].textContent);
                 console.log(favoriteItemsList);
             }
@@ -151,7 +151,7 @@ let openModulWindow = function(option, nameCard){
             if (nameCard == itemList[counter].name){
                 console.log(itemList[counter].mainImg)
                 modulMax.innerHTML = `
-        <img id="close-modal-window" src="../img/close.png" alt="">
+        <img id="close-modal-window" src="./img/close.png" alt="">
         <div id="seeImg"></div>
         <div id="card-item-imgs">
                     <div id="card-item-img-1" class="card-item-styles"><img class="modal-card-img" src="${itemList[counter].mainImg}" alt=""></div>
@@ -205,7 +205,7 @@ let openModulWindow = function(option, nameCard){
             }
         if(activeUser == "Guest"){
             modulMin.innerHTML = `
-            <img id="close-modal-window" src="../img/close.png" alt="">
+            <img id="close-modal-window" src="./img/close.png" alt="">
             <h1>Аккаунт</h1>
             <div class="account-modal">
                 <h3>Имя пользователя</h3>
@@ -221,7 +221,7 @@ let openModulWindow = function(option, nameCard){
         }
         else{
             modulMin.innerHTML = `
-                <img id="close-modal-window" src="../img/close.png" alt="">
+                <img id="close-modal-window" src="./img/close.png" alt="">
                 <h1>Аккаунт</h1>
                 <div class="account-modal">
                     <div class="account-modal-img"><img  src="img/account.png" alt=""></div>
@@ -236,7 +236,7 @@ let openModulWindow = function(option, nameCard){
         {
             let totalPrice = 0;
              modulMin.innerHTML = `
-                <img id="close-modal-window" src="../img/close.png" alt="">
+                <img id="close-modal-window" src="./img/close.png" alt="">
                 <h1>Корзина</h1>
                 <div id="favorite-items-grid"></div>
             `;
